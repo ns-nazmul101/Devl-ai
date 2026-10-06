@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Devil AI</string>
+    <string name="accessibility_service_description">Enables Devil AI to execute supported phone navigation actions such as capturing screenshots, going home/back, and accessing system panels per user commands.</string>
+</resources>

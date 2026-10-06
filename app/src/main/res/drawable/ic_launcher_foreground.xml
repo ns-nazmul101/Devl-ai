@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ambient glowing aura -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="28"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#4DFF2E63" />
+                <item android:offset="0.7" android:color="#229D4EDD" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer sonic ring -->
+    <path
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#7B2CBF"
+        android:fillColor="#00000000" />
+
+    <!-- Left Devil Horn Silhouette -->
+    <path
+        android:pathData="M38,44 C34,36 30,26 40,30 C43,33 45,39 46,45 Z"
+        android:fillColor="#FF2E63" />
+
+    <!-- Right Devil Horn Silhouette -->
+    <path
+        android:pathData="M70,44 C74,36 78,26 68,30 C65,33 63,39 62,45 Z"
+        android:fillColor="#FF2E63" />
+
+    <!-- AI Core Head / Sphere -->
+    <path
+        android:pathData="M54,54m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="38"
+                android:endX="70"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF007F" />
+                <item android:offset="0.6" android:color="#9D4EDD" />
+                <item android:offset="1.0" android:color="#3A0CA3" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Cyber Eye / Voice Node -->
+    <!-- Left Eye slit -->
+    <path
+        android:pathData="M46,52 L50,54 L46,56 Z"
+        android:fillColor="#00F5D4" />
+    <!-- Right Eye slit -->
+    <path
+        android:pathData="M62,52 L58,54 L62,56 Z"
+        android:fillColor="#00F5D4" />
+
+    <!-- Center Neural Audio Pulse Waveform -->
+    <path
+        android:pathData="M54,49 L54,59 M51,51 L51,57 M57,51 L57,57"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Lower Cyber Chin Accent -->
+    <path
+        android:pathData="M48,64 L54,69 L60,64"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#00F5D4"
+        android:fillColor="#00000000" />
+</vector>

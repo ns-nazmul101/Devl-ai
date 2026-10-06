@@ -1,0 +1,6 @@
+{
+  "name": "Devil AI",
+  "description": "Advanced AI voice assistant with intelligent phone control, natural voice interaction, root tools, and permission manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
